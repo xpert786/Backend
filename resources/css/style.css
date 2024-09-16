@@ -1,0 +1,26 @@
+.generate-btn {
+    background-color: #ff4c4c;
+    color: white;
+    border-radius: 20px;
+}
+
+.image-placeholder {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 2px dashed #ddd;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
