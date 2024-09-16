@@ -15,7 +15,7 @@ Before integrating the Shutterstock API, ensure you have:
 A Shutterstock Developer Account.
 <b>An API Key and Secret from Shutterstock.</b>
 
-<p align="center"><a href="#" target="_blank"><img src="/Users/shubh/githubtesting/api/resources/images/shuttuerstock.png" width="" alt="output"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="/resources/images/shuttuerstock.png" width="" alt="output"></a></p>
 
 # Output
-<p align="center"><a href="#" target="_blank"><img src="/Users/shubh/githubtesting/api/resources/images/output.png" width="" alt="output"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="/resources/images/output.png" width="" alt="output"></a></p>
