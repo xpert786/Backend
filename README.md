@@ -17,16 +17,6 @@ Welcome to the Shutterstock API integration guide! This project demonstrates how
 # Introduction
 The Shutterstock API provides access to millions of high-quality images, videos, and music tracks. Integrating this API into your application can enhance your content with Shutterstock's extensive media library.
 
-
-# Installation and Setup
-Prerequisites
-Before integrating the Shutterstock API, ensure you have:
-
-A Shutterstock Developer Account.
-<b>An API Key and Secret from Shutterstock.</b>
-
-<p align="center"><a href="#" target="_blank"><img src="/resources/images/shuttuerstock.png" width="" alt="output"></a></p>
-
 # Installation
 To get started, you need to install the required dependencies. Use the following command to install the **shutterstock-api** package:
 npm install shutterstock-api
