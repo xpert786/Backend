@@ -55,5 +55,5 @@ If you encounter issues, check the following:
 # Contributing
 Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
 
-# final Output
+# Final Output
 <p align="center"><a href="#" target="_blank"><img src="/resources/images/output.png" width="" alt="output"></a></p>
