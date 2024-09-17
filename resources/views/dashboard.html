@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="">
+
+    <title>Invoice Management</title>
+    <link rel="icon" href="#" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/Users/IT-infonity/gitTesting/dashboard/resources/css/style.css">
+    <link rel="stylesheet" href="/Users/IT-infonity/gitTesting/dashboard/resources/css/dash.css">
+    <!-- search in select box -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css" rel="stylesheet">
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/41.2.0/classic/ckeditor.js"></script>
+</head>
+<body class="font-sans antialiased">
+    <div class="main-wrapper">
+        <div class="sidebar">
+            <div class="logo-bx">
+                <ul>
+                    <li class="menu-btn">
+                        <div class="collapseToggle d-flex">
+                            <span id="toggleIcon" class="fa fa-bars pe-4"></span>
+                            <span class="logo-img">
+                                <a href="#" class="long-logo">
+                                    <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/logo.png" alt="logo" width="122px">
+                                </a>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="menu-bx Navbar-nav d-flex">
+                <li class="top-space nav-item">
+                    <a href="#" class="nav-link" aria-current="page">
+                        <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/dashboard 1.png" alt="icon" class="icon pe-3">
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/document 1.png" alt="icon" class="icon pe-3">
+                        <span>Document</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/customer.png" alt="icon" class="icon pe-3">
+                        <span>Customer</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/Vector invoice.png" alt="icon" class="icon pe-3">
+                        <span>Invoice</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/chat.png" alt="icon" class="icon pe-3">
+                        <span>Chat</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/notification-1.png" alt="icon" class="icon pe-3">
+                        <span>Notification</span>
+                    </a>
+                </li>
+             
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/profile.png" alt="icon" class="icon pe-3">
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/SETTING.png" alt="icon" class="icon pe-3">
+                        <span>Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+        <section class="home-section">
+            <header class="navbar">
+                <div class="hed-user">
+                    <ul class="navg">
+                        <li class="ps-2">
+                            <div class="notification">
+                                <div class="notBtn">
+                                    <div class="dropdown">
+                                        <a class="dropdown-toggle" href="#" role="button" id="notificationDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-bell"></i>
+                                            <div class="number"></div>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-end chat-notification" aria-labelledby="notificationDropdown">
+                                            <li>
+                                                <div class="sec new notification-item">
+                                                    <div class="txt">New invoice
+                                                        <br>
+                                                        <i class="fa-solid fa-xmark d-flex justify-content-end" id="remove-notification"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="fixed-view-all">
+                                                <a href="#" class="dropdown-item view">
+                                                    View All
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown px-2 user">
+                            <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="/Users/IT-infonity/gitTesting/dashboard/resources/images/avatar.png" alt="avatar" class="avatar rounded-circle img-fluid"> Hi, John 
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user pe-2"></i> Profile</a></li>
+                                <li class="user-logout">
+                                    <form method="POST" action="#">
+                                        <a href="#" onclick="event.preventDefault(); this.closest('form').submit();" class="logout-link">
+                                            <i class="fa-solid fa-power-off me-2"></i>
+                                            Log Out
+                                        </a>
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <main role="main" class="content ml-sm-auto px-4">
+                <div class="container-fluid">
+                    <div class="title pt-3 mb-4 d-inline-block">
+                        <h1>Dashboard</h1>
+                    </div>
+                    <div class="row gy-5">
+                        <div class="col-md-4">
+                            <div class="card invc-crd">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="#">
+                                            Total Customer
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="invoice-count">
+                                        <span>500</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card invc-crd">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="#">
+                                            Total Invoice
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="invoice-count">
+                                        <span>250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card invc-crd">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="#">
+                                            Invoice Sent
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="invoice-count">
+                                        <span>55</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card invc-crd">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="#">
+                                            Paid Invoice
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="invoice-count">
+                                        <span>411</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card invc-crd">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="#">
+                                            UnPaid Invoice
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="invoice-count">
+                                        <span>44</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card invc-crd">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <a href="#">
+                                            Cancel Invoice
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="invoice-count">
+                                        <span>55</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </main>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.1/js/dataTables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
+    <script>
+        
+        $(document).ready(function() {
+            // Click event handler for notification items
+            $('.notification-item').click(function(e) {
+                e.preventDefault(); // Prevent default link behavior
+
+                // Get notification ID from data attribute
+                var notificationId = $(this).data('notification-id');
+                var notificationUrl = $(this).data('notification-redirect');
+
+                // AJAX call to mark notification as read and remove it from the list
+                $.ajax({
+                    url: "mark-notification-read-url", // Replace with actual URL
+                    type: 'POST',
+                    data: {
+                        id: notificationId,
+                        '_token': ""
+                    },
+                    success: function(response) {
+                        // Remove the clicked notification item from the list
+                        $('.notification-item[data-notification-id="' + notificationId + '"]')
+                            .remove();
+
+                        // Update the notification count displayed
+                        var newCount = parseInt($('.number').text()) - 1;
+                        $('.number').text(newCount);
+
+                        // Optionally, you can redirect the user to the notification URL
+                        window.location.href = notificationUrl;
+                    },
+                    error: function(xhr, status, error) {
+                        console.error(error); // Log any errors to the console
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
