@@ -1,4 +1,3 @@
-
 <p align="center">
 <a href="#"><img src="/resources/images/Best-API-nominations-400x400-Shutterstock.jpg" width="250px" alt="logo"></a></p>
 </p>
@@ -19,14 +18,10 @@ The Shutterstock API provides access to millions of high-quality images, videos,
 
 
 # Configuration
-Before you can use the Shutterstock API, you'll need to configure your API key. Follow these steps:
-
-1. Obtain API Key: Sign up at Shutterstock Developer and obtain your API key.
-
-2. Set Up Environment Variables: Create a .env file in the root directory of your project and add your Shutterstock API key:
-**SHUTTERSTOCK_API_KEY=your_api_key_here**
-
-3. Load Environment Variables: Be sure to load your application's environment variables.
+1. Create a Shutterstock developer account. 
+2. Then go to Account Details. 
+3. After that, click on developers. 
+4. Next, generate a token. 
 
 <p align="center"><a href="#" target="_blank"><img src="/resources/images/shuttuerstock.png" width="" alt="output"></a></p>
 
