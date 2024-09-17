@@ -1,3 +1,6 @@
+<p align="center">
+<a href="#" target="_blank"><img src="/resources/images/Best-API-nominations-400x400-Shutterstock" width="" alt="output"></a></p>
+</p>
 # Shutterstock API Integration
 This project demonstrates how to integrate the Shutterstock API into your web application to search and retrieve stock photos, videos, music, and other creative assets.
 
