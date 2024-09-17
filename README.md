@@ -38,7 +38,7 @@ Explore the following examples to see how to use various endpoints of the Shutte
 
 1. Search for Images: Find images based on keywords.
 2. Retrieve Image Details: Get details of a specific image.
-3. Download Media: Download images, videos, or music tracks.
+
 
 # Troubleshooting
 If you encounter issues, check the following:
