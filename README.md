@@ -1,14 +1,6 @@
+
 <p align="center">
-  <a href="https://shutterstock.com/">
-    <picture>
-      <img src="/resources/images/Best-API-nominations-400x400-Shutterstock.jpg" width="250px" alt="logo">
-    </picture>
-    
-  </a>
-  
-</p>
-<p align="center">
-<a href="https://www.shutterstock.com/" target="_blank" rel="noopener noreferrer"><img src="/resources/images/Best-API-nominations-400x400-Shutterstock.jpg" width="250px" alt="logo"></a></p>
+<a href="#"><img src="/resources/images/Best-API-nominations-400x400-Shutterstock.jpg" width="250px" alt="logo"></a></p>
 </p>
 
 # Shutterstock API Integration
