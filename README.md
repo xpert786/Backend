@@ -1,5 +1,5 @@
 <p align="center">
-<a href="www.shutterstock.com/developers" target="_blank"><img src="/resources/images/Best-API-nominations-400x400-Shutterstock.jpg" width="250px" alt="output"></a></p>
+<a href="www.shutterstock.com" target="_blank"><img src="/resources/images/Best-API-nominations-400x400-Shutterstock.jpg" width="250px" alt="output"></a></p>
 </p>
 
 # Shutterstock API Integration
