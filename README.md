@@ -32,11 +32,11 @@ Before you can use the Shutterstock API, you'll need to configure your API key. 
 
 
 # Features
-Search for images, videos, and music from Shutterstock.
-Fetch and display asset details (e.g., title, description, price).
-Filter assets by categories, orientation, and other properties.
-Paginate through results from the Shutterstock API.
-Download preview versions of assets (subject to Shutterstock licensing).
+- Search for images, videos, and music from Shutterstock.
+- Fetch and display asset details (e.g., title, description, price).
+- Filter assets by categories, orientation, and other properties.
+- Paginate through results from the Shutterstock API.
+- Download preview versions of assets (subject to Shutterstock licensing).
 
 # Examples
 Explore the following examples to see how to use various endpoints of the Shutterstock API:
