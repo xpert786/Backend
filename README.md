@@ -1,4 +1,7 @@
-![Screenshot](https://github.com/xpert786/Backend/blob/shutterstock/resources/images/logo.png?raw=true)
+<p align="center">
+  <img src="https://github.com/xpert786/Backend/blob/shutterstock/resources/images/logo.png?raw=true" alt="Screenshot" width="500">
+</p>
+
 # Shutterstock API Integration
 Welcome to the Shutterstock API integration guide! This project demonstrates how to integrate Shutterstock's API into your application, allowing you to access a vast library of images, videos, and music.
 
