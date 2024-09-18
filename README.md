@@ -21,7 +21,6 @@ This project is a web-based Invoice Management Dashboard built using HTML, CSS (
 # Future Enhancements
 - Add backend functionality for managing invoices and customer data.
 - Integrate real-time notifications using a service like Pusher or WebSockets.
-- Add more interactivity and data tables for managing documents and invoices.
 
 
 
