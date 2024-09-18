@@ -1,5 +1,7 @@
 <p align="center">
-<a href="#"><img src="/resources/images/Best-API-nominations-400x400-Shutterstock.jpg" width="250px" alt="logo"></a></p>
+
+![Screenshot](https://github.com/xpert786/Backend/blob/shutterstock/resources/images/Best-API-nominations-400x400-Shutterstock.jpg?raw=true)
+
 </p>
 
 # Shutterstock API Integration
