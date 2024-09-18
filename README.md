@@ -1,6 +1,6 @@
 <p align="center">
 
-![Screenshot](https://github.com/xpert786/Backend/blob/shutterstock/resources/images/Best-API-nominations-400x400-Shutterstock.jpg?raw=true)
+![Screenshot](https://github.com/xpert786/Backend/blob/shutterstock/resources/images/logo.png?raw=true)
 
 </p>
 
