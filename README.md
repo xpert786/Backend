@@ -47,27 +47,53 @@ The dashboard features several charts, displaying key business data:
 3. **Customize**:
    Modify the HTML and CSS files to fit your specific project needs. You can change the icons, add new features, or connect the UI to backend services.
 
+## Technologies
+The following technologies and libraries are utilized in the project:
+
+### **HTML/CSS**
+- Bootstrap
+- Custom Stylesheets
+
+### **JavaScript**
+- Plugins for performance and UI enhancements
+
+### **Fonts**
+- Google Fonts: Roboto
+
+### **Plugins**
+- **Pace.js**: Automatically shows a progress bar on page load.
+- **SimpleBar**: Custom scrollbars for better UX.
+- **Perfect Scrollbar**: An alternative to the browser's native scrollbar with a custom design.
+- **MetisMenu**: jQuery menu plugin for sidebar navigation.
+
 ## Dependencies
 
 - **Ionicons**: For displaying icons throughout the dashboard.
 - **Simplebar**: Used for custom scrollbars on the sidebar.
 - **Chart.js**: For rendering interactive charts.
 
-## Screenshots
 
+
+
+
+## Screenshots
 Here are some sample screenshots of the template:
 
+
 1. **Dashboard Overview in Default Mode**
+
    <p align="center"><a href="#" target="_blank"><img src="/super-admin/assets/images/output/defalut.png" width="" alt="output"></a></p>
 
 
 
 2. **Dashboard Overview in Dark Mode**
+
  <p align="center"><a href="#" target="_blank"><img src="/super-admin/assets/images/output/darkmode display.png" width="" alt="output"></a></p>
 
 
 
 3. **Dashboard Overview in Light Mode**
+
 <p align="center"><a href="#" target="_blank"><img src="/super-admin/assets/images/output/lightmode.png" width="" alt="output"></a></p>
 
 
