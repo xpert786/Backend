@@ -60,11 +60,16 @@ Here are some sample screenshots of the template:
 1. **Dashboard Overview in Default Mode**
    <p align="center"><a href="#" target="_blank"><img src="/super-admin/assets/images/output/defalut.png" width="" alt="output"></a></p>
 
+
+
 2. **Dashboard Overview in Dark Mode**
  <p align="center"><a href="#" target="_blank"><img src="/super-admin/assets/images/output/darkmode display.png" width="" alt="output"></a></p>
 
+
+
 3. **Dashboard Overview in Light Mode**
 <p align="center"><a href="#" target="_blank"><img src="/super-admin/assets/images/output/lightmode.png" width="" alt="output"></a></p>
+
 
 
 ## License
