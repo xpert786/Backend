@@ -5,7 +5,7 @@ This repository contains a **Dashboard UI Template** built using HTML, CSS, and 
 ## Features
 
 - **Sidebar Navigation**: Easy-to-use sidebar with links to different sections like eCommerce, user profiles, and notifications.
-- **eCommerce Section**: Manage products with features like Product Grid, Product List, and Checkout.
+- **E-Commerce Section**: Manage products with features like Product Grid, Product List, and Checkout.
 - **User Management**: View and edit user profiles, manage notifications, and switch between dark/light modes.
 - **Notification System**: A notification bell with badges and a dropdown to view the latest updates.
 - **Dark Mode Support**: Toggle between light and dark modes for improved accessibility and user preference.
