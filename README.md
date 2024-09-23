@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xpert786/Backend/QR-Generator/store/output-1.png" alt="Screenshot" width="500">
+</p>
+
+
 
 # QR Code Generator
 A simple QR Code generator web application built with Node.js and Express. This app allows users to generate QR codes from URLs and download them as images.
