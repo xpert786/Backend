@@ -34,7 +34,7 @@ A simple QR Code generator web application built with Node.js and Express. This 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Acknowledgments
--  QRCode NPM Package
-npm package used : https://www.npmjs.com/package/qrcode
+-  QRCode NPM Package <br>
+  npm package used : https://www.npmjs.com/package/qrcode
 
 -  Bootstrap 4
