@@ -1,0 +1,1059 @@
+:root {
+    --primary-color: #3A59F2;
+    --secondary-color: #6998F8;
+    --red-color: rgba(237, 28, 36, 1);
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --text-color: #171717;
+    --font1-size: 30px;
+    --btn-color: #0F4FA1;
+    --h3-color: #3B4347;
+    --bg-color: #e5ebf5;
+}
+
+body {
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+.rounded-table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* .btn {
+    width: 75px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+/* Style the Login page */
+.login-form {
+    background-image: url('../images/usa-flag-american.gif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.login-form::after {
+    content: "";
+    background-color: rgba(105, 152, 248, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.overlay {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.login-form input[type=text],
+.login-form input[type=password] {
+    padding: 20px 20px;
+    margin: 30px 0;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: var(--text-color);
+    font-weight: 400;
+    outline: none;
+}
+
+.remember {
+    color: white;
+}
+
+.forgot {
+    color: var(--red-color);
+    text-decoration: none;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.btn-5 {
+    padding: 10px 20px;
+    margin: 30px 0;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    font-size:24px;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    outline: none;
+}
+.btn-5:hover{
+    background-color: var(--white-color);
+    color:var(--red-color);
+    transition: 0.6;
+}
+
+/* Style the forgot password */
+h1 {
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+
+p {
+    color: var(--white-color);
+    letter-spacing: 1.5px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+input[type=email] {
+    padding: 20px 20px;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--text-color);
+}
+
+.email {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    justify-content: start;
+    letter-spacing: 2px;
+}
+
+.submit {
+    width: 100%;
+    background-color: var(--red-color);
+    color: white;
+    padding: 9px 11px;
+    margin: 20px 0;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.btn-1 {
+    width: 100%;
+    outline: none;
+    color: var(--red-color);
+    padding: 9px 11px;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: var(--red-color);
+    cursor: pointer;
+    text-align: center;
+    background: var(--white-color);
+}
+.btn-1:hover{
+    background-color: var(--red-color);
+    color:var(--white-color);
+}
+
+/* Style the email-link page */
+.email-icon{
+    width:100px;
+}
+/* Style the reset-password-page */
+
+
+
+.char {
+    font-size: 12px;
+    color: var(--white-color);
+    font-weight: 200;
+    display: flex;
+    justify-content: start;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.reset-password input[type=password] {
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    text-align: left;
+    font-size: var(--font1-size);
+    color: var(--text-color);
+    outline: none;
+}
+
+/* Style the reset-sucessfully-page */
+h2 {
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+
+.space {
+    padding: 5rem;
+}
+
+/* Style the Dashboard-page */
+
+/* Style the Document-page */
+.box {
+    background-color: #E5EBF5;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='13' ry='13' stroke='%23333' stroke-width='4' stroke-dasharray='10%2c 28' stroke-dashoffset='3' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 13px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.box p {
+    letter-spacing: 0px;
+    color: var(--h3-color);
+}
+.add-logo1 form {
+    position: relative;
+    width: 500px;
+}
+
+.add-logo1 form input {
+    position: absolute;
+    left: 0;
+    top:0s;
+    opacity: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+}
+
+.add-logo1 span {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-3 {
+    background-color: var(--red-color);
+    padding: 12px 8px;
+    color: var(--white-color);
+    border: none;
+}
+
+.btn-2 {
+    background-color: var(--primary-color);
+    padding: 12px 96px;
+    color: var(--white-color);
+    border: none;
+}
+
+h4 {
+    color: var(--black-color);
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.box-1 {
+    background-color: #E5EBF5;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0px;
+    width:250px;
+   
+}
+
+h6 {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Style the Invoice-page */
+.btn-4 {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 30px;
+    color: var(--white-color);
+    padding: 10px 28px;
+}
+
+.form-check .form-check-input {
+    margin-left: 0;
+}
+
+.form-check-input:checked {
+    background-color: var(--red-color);
+    border-color: var(--red-color);
+}
+
+table .bordered {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-collapse: collapse;
+}
+
+thead,
+th {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    font-weight: 400;
+
+}
+
+table.invic td {
+    background: transparent;
+    border-bottom: 1px solid #ddd;
+}
+
+table.invic th {
+    position: relative;
+}
+
+table.invic th:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 7px;
+    width: 2px;
+    height: 40%;
+    background: #818181;
+}
+
+table.invic th:first-child:after {
+    display: none;
+}
+
+th {
+    padding: 12px 14px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 6px 14px;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+.invic .btn, .stats {
+    width: 67px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px 7px;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.stats {
+    background: #3a59f2;
+    color: #fff;
+}
+
+.stats:hover, .stats:focus {
+    background: #3a59f2cc;
+    color: #fff;
+    border-color: #3a59f2;
+}
+
+.invic ul.dropdown-menu {
+    padding: 0.5rem;
+    min-width: 8rem;
+}
+
+.invic ul.dropdown-menu a.dropdown-item {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px 7px;
+    margin-bottom: 5px;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.paid {
+    background: rgb(5 80 123 / 16%) !important;
+    color: #05507B;
+}
+
+.paid:hover {
+    border-color: #05507B !important;
+}
+
+tr.checked {
+    background: rgb(239 24 24 / 20%);
+}
+
+tr.checked td {
+    border-bottom: 1px solid #EF1818;
+}
+
+.form-check-input:focus {
+    border-color: #dc3545;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(220 53 69 / 25%);
+}
+
+.draft {
+    background: rgb(0 0 0 / 16%) !important;
+    color: #000;
+}
+
+.draft:hover{
+    border-color: #000 !important;
+}
+
+.sent {
+    background: rgb(239 24 24 / 16%) !important;
+    color: #EF1818;
+}
+
+.sent:hover {
+    border-color: #EF1818 !important;
+}
+
+.unpaid{
+    background: rgb(21 197 97 / 16%) !important;
+    color: #15C561;
+}
+
+.unpaid:hover{
+    border-color: #15C561 !important;
+}
+
+.cancel {
+    background: rgb(1 157 191 / 16%) !important;
+    color: #019DBF;
+}
+
+.cancel:hover{
+    border-color: #019DBF !important;
+}
+
+
+/* create invoice page css */
+.cret-inv {
+    margin-top: 60px;
+    padding: 40px 15px;
+    border-radius: 10px;
+    background: rgb(229 235 245 / 50%);
+}
+
+.add-logo form {
+    position: relative;
+    width: 200px;
+}
+
+.add-logo form input {
+    position: absolute;
+    left: 0;
+    top: 0s;
+    opacity: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+}
+
+.add-logo span {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+    table#invoice-table table.tab-dta th,
+    table#invoice-table table.tab-dta td {
+        background: none;
+    }
+
+    .side-box {
+        padding: 10px 20px;
+        background: #a7c1f6;
+    }
+
+    .side-box {
+        padding: 12px 20px;
+        background: #a7c1f6;
+        text-transform: capitalize;
+    }
+
+    .side-box form label {
+        font-weight: 500;
+        color: #000;
+        text-transform: capitalize;
+    }
+
+    .side-box form input,
+    .side-box form select {
+        width: 94%;
+        border-radius: 0;
+        margin: 0;
+        border: 1px solid #9A9CA0;
+        padding: 5px 8px;
+        font-size: 13px;
+    }
+.currency-bx select {
+    border-radius: 0;
+    border-color: #9a9ca0;
+}
+
+/* Style the Invoice-details-page */
+.invoice-bg {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 10px;
+}
+ .title h1 {
+    color: var(--black-color);
+    letter-spacing: 1px;
+    border-bottom: 1px solid black;
+}
+.invoice-bg h6 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    border-bottom: 1px solid var(--black-color);
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.invoice-bg p,
+.invoice-bg a,
+.invoice-bg span {
+    color: var(--black-color);
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 0px;
+    margin: 0px;
+}
+
+.invoice-bg .inv-no {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.invoice-bg .rht-bx h6.inv-no {
+    border: none;
+    font-size: 22px;
+}
+
+.invoice-bg .fs {
+    font-size: 16px;
+}
+
+table.total-bx,
+table.total-bx tr,
+table.total-bx td {
+    background: none;
+    padding-left: 0;
+}
+
+.total-bx .total-bg {
+    background: var(--primary-color);
+    color: var(--white-color);
+    padding-left: 6px;
+}
+
+h5 {
+    font-size: 40px;
+    text-align: center;
+}
+
+thead, th, td {
+    background-color: rgba(105, 152, 248, 0.5);
+    border-collapse: collapse;
+    border-bottom: none;
+}
+
+thead,
+th {
+    color: var(--black-color);
+    font-weight: 500;
+}
+
+.message h5 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.message p {
+    font-size: 11px;
+}
+
+.save {
+    background-color: var(--primary-color);
+    padding: 3px 14px;
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+}
+
+.invoice-bg .cancel {
+    background-color: var(--red-color) !important;
+    padding: 3px 14px;
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+/* create invoice page css */
+
+.frm-bx select,
+.frm-bx input {
+    width: 100%;
+    border: 1px solid #9A9CA0;
+    padding: 3px 8px;
+    font-size: 13px;
+}
+
+.multi-drop {
+    width: 100%;
+    border: 1px solid #9A9CA0;
+    padding: 0 10px 0 0;
+    font-size: 13px;
+    background: #fff;
+    color: #000;
+    text-align: left;
+}
+
+.multi-drop input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.input-group>.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.frm-bx input::placeholder {
+    text-align: left;
+}
+
+.multi-drop button {
+    padding: 10px;
+    border: none;
+    background: none;
+}
+
+.multi-drop .dropdown-toggle {
+    position: relative;
+}
+
+.multi-drop .dropdown-toggle::after {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #9A9CA0;
+}
+
+.multi-drop ul.dropdown-menu {
+    border: 1px solid #9A9CA0;
+    border-radius: 0;
+    padding: 0;
+    min-width: 60px;
+}
+
+.multi-drop ul.dropdown-menu a.dropdown-item {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px 8px;
+    border-bottom: 1px solid #9a9ca0;
+}
+
+.multi-drop ul.dropdown-menu li:last-child a.dropdown-item {
+    border-bottom: none;
+}
+
+.multi-drop ul.dropdown-menu ul.dropdown-menu {
+    left: 100% !important;
+    transform: translate(3px, 22px) !important;
+}
+
+.fill-invic th {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.fill-invic input, .fill-invic textarea {
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #9A9CA0;
+    padding: 3px 8px;
+    font-size: 13px;
+}
+
+.fill-invic button {
+    border: 1px solid #000;
+    padding: 3px 8px;
+    font-size: 13px;
+}
+
+.fill-invic .cret-total th,
+.fill-invic .cret-total td {
+    background: #fff;
+    border: 1px solid #9a9ca080;
+    padding: 4px 15px;
+    font-weight: 500;
+    color: #1D2733;
+}
+
+.fill-invic .cret-total td.total-bg {
+    font-weight: 700;
+}
+
+.message-bx label {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.message-bx textarea {
+    border-radius: 0;
+    border: 1px solid #9a9ca0;
+    font-size: 14px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+/* contact page css */
+.contact-bx label {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contact-bx input,
+.contact-bx textarea {
+    display: block;
+    width: 80%;
+    margin: 0;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0;
+    border: 1px solid #9A9CA0;
+}
+
+.upload-doc {
+    width: 80%;
+    background-image: none;
+    border: 1px solid #9A9CA0;
+    border-radius: 0;
+    padding: 25px;
+}
+
+button.cont-send {
+    background-color: var(--primary-color);
+    padding: 10px 55px;
+    font-size: 20px;
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+}
+
+/* Profile information css */
+.profile h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.profile .btns button {
+    font-size: 12px;
+    padding: 2px 12px;
+    border-radius: 0;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.chng {
+    background: #6998F8;
+}
+
+.chng:hover {
+    background: var(--primary-color);
+}
+
+.remov {
+    background: #9A9CA0;
+}
+
+.remov:hover {
+    background: #3B4347;
+}
+
+.info h6 {
+    text-align: left;
+    font-size: 22px;
+}
+
+.info form label {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.info form input {
+    display: block;
+    width: 80%;
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #9A9CA0;
+    text-align: left;
+}
+
+.info form input::placeholder {
+    color: #9A9CA0;
+    font-weight: 400;
+}
+
+.info .btn-bx button {
+    padding: 8px 35px;
+    border-radius: 30px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.info .btn-bx button:hover {
+    opacity: 0.9;
+}
+
+/* Style the Setting-page */
+.setting {
+    background-color: rgba(105, 152, 248, 0.7);
+    height: 100%;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.setting p {
+    margin-top: 0px;
+    font-weight: 300;
+    font-size: 11px;
+    text-align: start;
+}
+
+input[type=password] {
+    padding: 14px 11px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #9A9CA0;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #9A9CA0;
+    text-align: start;
+}
+
+.password {
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 2px;
+}
+
+.setting input::placeholder {
+    color: #9A9CA0;
+}
+.setting label {
+    margin: 0.3rem 0.5rem;
+}
+
+
+/*buttons hover css*/
+.btn-2:hover{
+    background-color:rgb(181,28,34);
+    color:var(--white-color);
+    transition:all 0.4s ease-in-out;
+}
+.btn-3:hover{
+    background-color:var(--secondary-color);
+    color:var(--white-color);
+    transition: all 0.3s ease-in-out;
+}
+button.cont-send:hover {
+    background-color: var(--primary-color); 
+    color: var(--white-color);
+    transition: all 0.4s ease-in-out;  
+}
+
+.submit:hover{
+    background-color: var(--white-color);
+    color:var(--red-color);
+    transition: all 0.5s ease-in-out;
+    border:1px solid;
+    border-color: var(--red-color);
+}
+.btn-1:hover{
+    background-color: var(--red-color);
+    color:var(--white-color);
+    transition: all 0.5s ease-in-out;
+}
+.btn-5:hover{
+    background-color: var(--white-color);
+    color:var(--red-color);
+    border:1px solid;
+    border-color: var(--red-color);
+    transition: all 0.6s ease-in-out;
+}
+.invoice-bg .cancel:hover{
+    background-color: rgb(181,28,34) !important;
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+}
+.save:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+}
+
+/*customer page css*/
+
+.cus-src-bx input[type=text] {
+    padding: 4px 11px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid #9A9CA0;
+    font-weight: 300;
+    font-size: 16px;
+    color: #9A9CA0;
+    width: 375px;
+}
+
+.cus-src-bx form {
+    position: relative;
+}
+
+.cus-src-bx form button {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    border: none;
+    background: none;
+}
+
+
+/*customer details page css*/
+.cus-src-bx input[type=text] {
+    padding: 4px 11px;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid #9A9CA0;
+    font-weight: 300;
+    font-size: 16px;
+    color: #9A9CA0;
+}
+
+.cus-src-bx form {
+    position: relative;
+    width: 375px;
+}
+
+.cus-src-bx form button {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    border: none;
+    background: none;
+}
+
+
+.cus-details{
+    padding:50px;
+    border-radius: 2px;
+}
+.cus-details h6{
+    text-align: left;
+    color: #3B4347;
+    font-weight: 600;
+}
+.cus-details span{
+    color:#1D2733;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.btn-6{
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 6px;
+    color: var(--white-color);
+    padding: 7px 11px;
+}
+
+.cus-details {
+    padding: 30px 30px 40px;
+    border-radius: 10px;
+    width: 75%;
+    background: var(--bg-color);
+}
+
+.custom-btn button {
+    background-color: var(--red-color) !important;
+    padding: 6px 20px;
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+}
+
+.custom-btn button.save {
+    background-color: var(--primary-color) !important;
+}
+
+.detail-bx input.form-control {
+    display: block;
+    width: 80%;
+    margin: 0;
+    padding: 5px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0;
+    border: 1px solid #9A9CA0;
+}
