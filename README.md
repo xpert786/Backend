@@ -1,7 +1,12 @@
-# Invoice Management System
+# Media Gallery
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xpert786/Backend/mediagallery/invoice_management/public/images/media-gallery.png" alt="Screenshot" >
+
+</p>
+
 
 ## Description
-In this we show the code how we can upload the multiple images in media gallery
+Discover the simple way to upload multiple images in your media gallery.
 
 # Uploading Multiple Images
 - To upload multiple images, follow these steps:
@@ -25,3 +30,12 @@ In this we show the code how we can upload the multiple images in media gallery
 - jQuery: JavaScript library for DOM manipulation and AJAX requests.
 
 # Screenshot 
+<p align="center">
+<img src="https://raw.githubusercontent.com/xpert786/Backend/mediagallery/invoice_management/public/images/create-folder.png" alt="Screenshot" >
+</p>
+
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xpert786/Backend/mediagallery/invoice_management/public/images/media-gallery.png" alt="Screenshot" >
+
+</p>
